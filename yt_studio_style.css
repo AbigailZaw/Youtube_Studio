@@ -1,0 +1,118 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+.column{
+    width: 370px;
+    
+    
+    margin: 20px;
+}
+.box{
+    padding: 20px;
+    
+    background-color:#FFFFFF;
+    border-radius: 5px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.boxTitle{
+    font-size: 18px;
+    margin-bottom: 16px;
+    
+}
+.thumbnail{
+    width: 100%;
+    margin-top: -35px;
+   
+}
+.thumbnailContainer{
+    height: 165px;
+    overflow: hidden;
+    border-radius: 3px;
+    margin-bottom: 18px;
+   
+}
+.op{
+    opacity: 0.5;
+}
+.performance{
+    
+    margin-bottom: 10px;
+    
+}
+.stat{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.statContainer{
+    margin-bottom: 16px;
+}
+.link{
+    color: #1c5fd4;
+}
+.comment{
+    margin-top: 15px;
+}
+/*Second Column*/
+.secondColumnTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondColumnImage{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.fs{
+    font-size: 13px;
+}
+.creator{
+    margin-bottom: 12px;
+}
+/*Third Column*/
+.subscriberCount{
+    font-size: 34px;
+}
+.cg{
+    color: green;
+}
+.divider{
+    height: 1px;
+    background-color: lightgray;
+    margin: 25px 0;
+}
+.summaryContainer{
+    margin-bottom: 10px;
+}
+.summary{
+    margin-bottom: 5px;
+}
+.summaryStat{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 0;
+}
+.playlist{
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+}
+.overflowEllipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ffs{
+    font-size:18px ;
+    margin-left: 8px;
+   
+}
+.fa-angle-left{
+    margin-right: 25px;
+}
